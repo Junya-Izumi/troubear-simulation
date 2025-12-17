@@ -2,8 +2,8 @@
 ## 概要
 熊と遭遇した時の対応の仕方を学ぶ3択のクイズゲームです<br>
 これは2025年度全国商業高校Webアプリコンテストに提出した作品です。<br>
-[公式サイト-全国商業高校Webアプリコンテスト](https://showebcon.com/)<br>
-[熊ったシミュレーション](https://troubear-simulation.netlify.app/)
+- コンテストの公式サイト [全国商業高校Webアプリコンテスト](https://showebcon.com/)<br>
+- 提出した作品のサイト   [熊ったシミュレーション](https://troubear-simulation.netlify.app/)
 ### 作成期間
 約2か月 部活動の時間で作成しました
 

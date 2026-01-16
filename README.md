@@ -9,5 +9,5 @@
 ### 制作期間
 約2か月 部活動の時間で作りました
 ## 使用されている画像について
-ファイル[bear_3.png](https://github.com/Junya-Izumi/troubear-simulation/blob/main/main/image/bear/bear_3.png)はチームのメンバーが作りました。<br>
+ファイル[bear_3.png](./bear_3.png)はチームのメンバーが作りました。<br>
 それ以外の画像はフリーサービスからもってきました。（一部編集・加工しました）

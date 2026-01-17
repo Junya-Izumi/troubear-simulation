@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>熊ったシミュレーション</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/title.css">
+    <link rel="stylesheet" href="./css/course-select.css">
+    <link rel="stylesheet" href="./css/please-rotate.css">
+    <link rel="stylesheet" href="./css/play.css">
+    <link rel="stylesheet" href="./css/result.css">
+    <link rel="icon" href="image/icon/favicon.png" type="image/png">
+</head>
+
+<body>
+    <div class="please-rotate">
+        <h2>縦向きでご利用ください</h2>
+        <img src="./image/icon/mobile_rotate.svg" alt="mobile_rotate">
+    </div>
+    <div class="contents">
+        <div class="page title active">
+            <h1 class="title_text">熊ったシミュレーション</h1>
+            <div class="title_tap-to-start">Tap to start</div>
+            <div class="title_homeImage">
+                <img src="./image/icon/question.png" alt="home image" class="homeImage_question">
+                <img src="./image/bear/bear_3.png" alt="home image" class="homeImage_bear">
+            </div>
+        </div>
+        <div class="page course-select">
+            <header>
+                <img src="image/icon/arrow_back.svg" alt="タイトル画面に戻る" class="go_title">
+                <h3>コースセレクト</h3>
+            </header>
+            <ul class="course_list"></ul>
+            <button id="game_start" disabled>プレイ</button>
+        </div>
+        <div class="page play">
+            <header>
+                <h3 id="course_name">[コース名]</h3>
+                <span id="count_down">秒</span>
+            </header>
+            <div class="display">
+                <img src="" alt="background" class="background">
+                <img src="" alt="bear" class="bear">
+            </div>
+            <div class="selector">
+                <div class="question">問題文</div>
+                <ul class="selection_list">
+                    <li><button>[選択肢1]</button></li>
+                    <li><button>[選択肢2]</button></li>
+                    <li><button>[選択肢3]</button></li>
+                </ul>
+            </div>
+            <div class="answer">
+                <h2 class="answer_selection">答え:</h2>
+                <p class="answer_explanation"></p>
+            </div>
+            <div class="effect"></div>
+            <button class="next_step">次に進む</button>
+        </div>
+        <div class="page result">
+            <h3 class="game_result"></h3>
+            <img alt="game_result_image" class="game_result_image">
+            <button class="go_title">タイトルに戻る</button>
+        </div>
+    </div>
+    <script src="./script/script.js" defer></script>
+    <script src="./script/timer.js" defer></script>
+    <script src="./script/title.js" defer></script>
+    <script src="./script/course-select.js" defer></script>
+    <script src="./script/play.js" defer></script>
+    <script src="./script/please-rotate.js" defer></script>
+    <script src="./script/content-resize.js" defer></script>
+</body>
+
+</html>

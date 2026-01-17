@@ -1,0 +1,104 @@
+.course-select .go_title {
+  position: absolute;
+  height: 30px;
+  margin: 10px 0 0 3px;
+  animation: go_title 2s infinite ease;
+}
+
+.course-select header h3 {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.course_list {
+  margin-top: 30px;
+  height: fit-content;
+  user-select: none;
+  -webkit-user-select: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+.course_list>li {
+  position: relative;
+  text-align: center;
+  height: 130px;
+  width: 100%;
+  display: block;
+  background-color: #f7f7f769;
+  background-size: contain;
+  background-repeat: repeat-x;
+}
+
+.course_list li>img {
+  height: 100%;
+  width: 250px;
+  background-color: #fff;
+  background-color: #dad7d7a8;
+  object-fit: contain;
+  pointer-events: none;
+  border-radius: 20px;
+}
+
+.course_list span {
+  pointer-events: none;
+  position: absolute;
+  bottom: 0;
+  top: 5px;
+  height: min-content;
+  left: 35%;
+  transform: translateX(-50%);
+  background-color: #e8dfdf;
+  border-radius: 5px;
+  font-size: 23px;
+}
+
+.course_list>.active {
+  box-sizing: border-box;
+  border: 5px dashed #affcde;
+  border: 5px dashed #dbf78e;
+}
+
+#game_start {
+  position: absolute;
+  right: 50%;
+  height: 50px;
+  width: 90%;
+  font-size: 2rem;
+  transform: translate(50%);
+  margin-top: 20px;
+}
+
+#game_start:not(:disabled) {
+  animation: not_disabled 3s infinite ease;
+}
+
+@keyframes go_title {
+  0% {
+    margin-left: 3px;
+  }
+
+  50% {
+    margin-left: 12px;
+  }
+
+  100% {
+    margin-left: 3px;
+  }
+}
+
+@keyframes not_disabled {
+  0% {
+    color: #000000;
+  }
+
+  50% {
+    color: #635e00;
+  }
+
+  100% {
+    color: #000000;
+  }
+}
